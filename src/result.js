@@ -7,15 +7,3 @@ export function resultLabel(score) {
   }
   return "Needs improvement";
 }
-
-export function gradeLetter(score) {
-  if (score === NaN) {
-    return "Invalid";
-  }
-  if (score >= 90) {
-    return "A";
-  } else if (score >= 90) {
-    return "B";
-  }
-  return "C";
-}
